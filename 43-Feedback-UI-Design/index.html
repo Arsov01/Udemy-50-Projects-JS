@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Customer Feedback</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="panel-container" id="panel">
+      <strong
+        >How satisfied are you with our <br />customer support
+        performance?</strong
+      >
+      <div class="rating-container">
+        <div class="rating" data-rating="unhappy">
+          <img
+            src="https://www.svgrepo.com/show/401371/crying-face.svg"
+            alt="Unhappy face"
+          />
+          <small>Unhappy</small>
+        </div>
+        <div class="rating" data-rating="neutral">
+          <img
+            src="https://www.svgrepo.com/show/402205/neutral-face.svg"
+            alt="Neutral face"
+          />
+          <small>Neutral</small>
+        </div>
+        <div class="rating" data-rating="satisfied">
+          <img
+            src="https://www.svgrepo.com/show/296058/happy-emoji.svg"
+            alt="Happy face"
+          />
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">Send Review</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
